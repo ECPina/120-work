@@ -4,6 +4,7 @@
 1. Open the website
 2. Read everything
 3. Realize you should know this pretty well
+4. Open up Atom and GitHub
 4. Remember you forgot how to do everything
 5. Re-read
 6. Do the assignment
@@ -26,7 +27,7 @@ I didn't have any issues. Everything was pretty familiar already. I didn't see a
   - Forget homework and play video games instead
 
 ## Link
-[Click Here](http://www.albertovazquez.net/index.php?/unicorn--blood/) to check out a pretty spooky animation by Spanish animator Alverto Vazquez.
+[Click Here](http://www.albertovazquez.net/index.php?/unicorn--blood/) to check out a pretty spooky animation by Spanish animator `Alverto Vazquez.`
 
 ## Workspace
 ![Week 2 Workspace](./images/hw2workspace.png)
