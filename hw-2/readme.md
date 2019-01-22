@@ -22,4 +22,4 @@ I didn't have any issues. Everything was pretty familiar already. I didn't see a
 [Click Here](http://www.albertovazquez.net/index.php?/unicorn--blood/) to check out a pretty spooky animation by Spanish animator Alverto Vazquez.
 
 ## Worspace
-![Week 2 Workspace](../images/hw2workspace.png)
+![Week 2 Workspace](./images/hw2workspace.png)
