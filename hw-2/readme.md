@@ -18,6 +18,13 @@ I am struggling a bit with using the terminal as a way to get around but I know 
 ## Issues
 I didn't have any issues. Everything was pretty familiar already. I didn't see any issues posted for other classmates, but maybe I should take another gander.
 
+## Todo List
+- Finish flipbook
+- Read assigned reading
+- Take a nap
+- Work on Homework
+  - Forget homework and play video games instead
+
 ## Link
 [Click Here](http://www.albertovazquez.net/index.php?/unicorn--blood/) to check out a pretty spooky animation by Spanish animator Alverto Vazquez.
 
