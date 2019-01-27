@@ -7,8 +7,8 @@ Author: E.C.Pina
 // Delcaring the setup function
 function setup () {
 
-  // creating a canvas that is 100px wide and 100px high
-  createCanvas (100, 100);
+  // creating a canvas that is 300px wide and 600px high
+  createCanvas (300, 600);
 
   // making the background 'thistle/soft purple'
   background ('thistle')
