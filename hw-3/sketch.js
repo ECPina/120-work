@@ -7,8 +7,8 @@ Author: E.C.Pina
 // Delcaring the setup function
 function setup () {
 
-  // creating a canvas that is 700 px wide and 500px high
-  createCanvas (700, 500);
+  // creating a canvas that is 500 px wide and 300px high
+  createCanvas (500, 300);
 
   // making the background 'thistle/soft purple'
   background ('thistle')
@@ -19,5 +19,5 @@ function draw () {
 
   // telling p5 to print the text string as "Hello World!"
   // This is going to be positioned at (x: 20, y:30)
-  text ("Hello World!", 60, 80);
+  text ("Hello World!", 20, 30);
 }
