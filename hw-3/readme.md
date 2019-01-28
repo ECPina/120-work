@@ -30,4 +30,4 @@ For the most part, the assignemnt was pretty straight forward. I didn't have muc
 There was one classmate that was having issues with getting her image to appear in her readme. I often struggle with my links, so I offered a solution that I thought might help. She did use a different approach, but she managed to fix the issue.
 
 ## Workspace
-![week three workspace](.images/workspace3.png)
+![week three workspace](./images/workspace3.png)
