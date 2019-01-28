@@ -18,9 +18,9 @@ When all was said and done, we then posted it on GitHub and learned how to make 
 2. Created new directory called hw-3
 3. Opened the sketch.js
 4. Followed along with instructions
-  - created a canvas
-  - added color to the background
-  - added text
+    - created a canvas
+    - added color to the background
+    - added text
 5. Saved and pushed to GitHub
 6. Make link live
 
