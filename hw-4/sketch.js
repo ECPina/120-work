@@ -15,14 +15,42 @@ function draw () {
   /* ************ */
   /* MAIN SANDBOX */
   /* ************ */
-
-/* **** */
-/* body */
-/* **** */
   push();
-  pop();
+  translate(200, 100);
+  scale(0.5);
 
+  /* **** */
+  /* legs */
+  /* **** */
   push();
+
+  fill('#85929E');
+  noStroke();
+  rect(130, 950, 50, 500);
+  rect(260, 950, 50, 500);
+
+  pop(); // LEGS END
+
+
+  /* **** */
+  /* body */
+  /* **** */
+  push();
+
+  // belly
+  fill('#AEB6BF')
+  noStroke()
+  ellipse(220, 700, 350, 600);
+
+  // spots
+  fill('#FDEDEC');
+  ellipse (250, 550, 50, 50);
+  ellipse (170, 500, 50, 50);
+  ellipse (200, 900, 50, 50);
+  ellipse (250, 800, 50, 50);
+  ellipse (290, 700, 50, 50);
+
+  pop(); // BODY END
 
   /* **** */
   /* HEAD */
@@ -33,14 +61,19 @@ function draw () {
   //  neck
   fill('#85929E');
   noStroke();
-  rect(150, 355, 140, 80);
+  rect(160, 360, 120, 70);
 
-  //skull
+  // head
   fill('#AEB6BF');
   noStroke();
   rect(30, 20, 375, 350, 0, 0, 190, 190);
 
-  // eyebrows
+  // cheeks
+  fill('#FDEDEC');
+  arc(100, 200, 80, 80, 0, PI + QUARTER_PI);
+  arc(350, 200, 80, 80, 0, PI + QUARTER_PI);
+
+  // eyebrow
   fill('#000000');
   ellipse(100, 50, 20);
   ellipse(125, 50, 20);
@@ -65,20 +98,19 @@ function draw () {
   // right
   fill('#A3E4D7');
   noStroke();
-  ellipse(300, 120, 65, 65);
+  ellipse(298, 120, 65, 65);
 
   fill('#000000');
   noStroke();
   ellipse(300, 120, 40, 40);
 
   // nose
-  fill('#FADBD8');
-  triangle(160, 180, 215, 240, 265, 180);
+  fill('#512E5F');
+  triangle(170, 180, 216, 230, 260, 180);
 
   // mouth
   fill('#000000');
   rect(140, 270, 160, 10);
-
 
   pop(); // HEAD END
 
