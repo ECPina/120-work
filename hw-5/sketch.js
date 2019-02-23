@@ -19,11 +19,14 @@ function draw() {
   background ('#FADBD8');
   noCursor();
 
-
+// *************** //
+// Scenery Sandbox //
+// ************** //
   push();
 
   // text
   textSize (25);
+  textFont ("Courier New");
   fill ('white');
   text ("time: " + floor(mouseX), 10, 40);
   text ("space: " + floor(mouseY), 10, 80);
@@ -58,18 +61,22 @@ function draw() {
   triangle(200, 800, 700, 800, 400, 600);
   triangle(500, 800, 800, 800, 800, 400);
 
-  pop();
-
+  pop(); // <- END SCENERY
 
   push();
+// ************ //
+// UFO Sandbox //
+// ********** //
 
   //  UFO
   noStroke();
   fill('#AEB6BF');
   ellipse(mouseX, mouseY, 200, 40);
   ellipse(mouseX, mouseY, 80, 80);
+  fill('#e6ffff');
+  triangle( mouseX, mouseY, 300, 800, 100, 800);
 
-  pop();
+  pop(); // <- END UFO
 
 
   angle = angle + 4;
