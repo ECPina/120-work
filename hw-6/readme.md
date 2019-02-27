@@ -25,4 +25,4 @@ This week proved to be a little more difficult. We were asked to make an algorit
 Well, I've never been that great at math so this has been quite a journey. It's not terribly hard math, it's just trying to wrap my head around simple math mixed in with coding. I struggle a lot trying to understand a lot of the functions and their purposes and I'm still not very clear on some of them.
 
 ## Workspace
-![hw-6 screen shot](../images/hw6screen.png)
+![hw-6 screen shot](../hw-6/images/hw6screen.png)
