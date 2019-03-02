@@ -8,13 +8,15 @@ Erica Pina, Section B
 ## Description of What the Original Code is Doing
 
 
-_Please describe what the original code is doing._
+1.) Please describe what the original code is doing.
 
-_Why is it working the way it is?_
+2.) Why is it working the way it is?
 
-_What does each line do?_
+3.) What does each line do?
 
-// creates an object named ball
+<--
+
+`// creates an object named ball
 let ball = {};
 
 // width of the ball is 40
@@ -60,10 +62,10 @@ function draw() {
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
     ball.scale_y = map(mouseY, 0, height, 0.5, 10);
-}
+}`
 
-How can you make the ball change direction?
--->
+4.) How can you make the ball change direction?
+
 
 
 ## How did you alter the sketch?
