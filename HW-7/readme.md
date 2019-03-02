@@ -7,8 +7,8 @@ Erica Pina, Section B
 
 ## Description of What the Original Code is Doing
 
-<!--
-_Please describe what the original code is doing._
+
+> _Please describe what the original code is doing._
 
 _Why is it working the way it is?_
 
