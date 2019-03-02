@@ -7,11 +7,7 @@ Erica Pina, Section B
 
 ## Description of What the Original Code is Doing
 
-1.) Please describe what the original code is doing.
-
-2.) Why is it working the way it is?
-
-3.) What does each line do?
+The original code animates the ball moving across the screen. When the ball hits the corners of the canvas, it changes directions and continues it's jouney, drawing a lattice pattern over and over again. If the screen is clicked, the ball accelerates. The ball never breaks from the canvas.
 
 ``` // creates an object named ball
 let ball = {};
@@ -61,12 +57,4 @@ function mousePressed() {
     ball.scale_y = map(mouseY, 0, height, 0.5, 10);
 } ```
 
-4.) How can you make the ball change direction?
-
-
-
 ## How did you alter the sketch?
-
-<!--
-Please describe how and why you changed the sketch?
--->
