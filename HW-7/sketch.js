@@ -1,48 +1,38 @@
+let box = {};
 
-// creates an object named ball
-let ball = {};
+box.width = 40;
 
-// width of the ball is 40
-ball.width = 40;
+box.x = 0;
+box.y = 0;
 
-// center of ball is at 10,10
-ball.x = 10;
-ball.y = 10;
+box.delta_x = 3;
+box.delta_y = 3;
+box.scale_x = 3;
+box.scale_y = 3;
 
-// Changes the the ball over time, shifting teh ball over and down by 1.
-ball.delta_x = 1;
-ball.delta_y = 1;
-
-// moves the ball along along the x and y axis by 1
-ball.scale_x = 1;
-ball.scale_y = 1;
-
-// creates the canvas that our ball is animated on
 function setup() {
     createCanvas(windowWidth, 400);
-    background(255);
+    background('rgba(153, 204, 153, 0.8)');
 }
 
-// draws our ball
 function draw() {
 
-    ball.x += ball.delta_x * ball.scale_x;
-    ball.y += ball.delta_y * ball.scale_y;
+    box.x += box.delta_x / box.scale_x;
+    box.y += box.delta_y * box.scale_y;
 
-// Constrains the ball to stay within the parameters of the canvas, changing direction of the ball when it hits the corners
-    if (ball.x >= width || ball.x <= 0) {
-        ball.delta_x = -1 * ball.delta_x;
+    if (box.x >= width || box.x <= 0) {
+        box.delta_x = -2 * box.delta_x;
     }
-    if (ball.y >= height || ball.y <= 0) {
-        ball.delta_y = -1 * ball.delta_y;
+    if (box.y >= height || box.y <= 0) {
+        box.delta_y = -1 * box.delta_y;
     }
 
-// gives color of ball and dictates the dimensions of the ball
-    fill(255);
-    ellipse(ball.x, ball.y, ball.width, ball.width);
+    stroke('rgba(255, 153, 102, 0.7)');
+    fill('rgba(255, 204, 51, 0.1)');
+    rect(box.x, box.y, box.width, box.width);
 }
- // changes the direction of the ball when the mouse is pressed, as well as the speed
+
 function mousePressed() {
-    ball.scale_x = map(mouseX, 0, width, 0.5, 10);
-    ball.scale_y = map(mouseY, 0, height, 0.5, 10);
+    box.scale_x = map(mouseX, 0, width, 0.5, 10);
+    box.scale_y = map(mouseY, 0, height, 0.5, 10);
 }

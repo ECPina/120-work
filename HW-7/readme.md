@@ -19,7 +19,7 @@ ball.width = 40;
 ball.x = 10;
 ball.y = 10;
 
-// Changes the the ball over time, shifting teh ball over and down by 1.
+// Changes the the ball over time as well as the speed of the ball, shifting the ball over and down by 1.
 ball.delta_x = 1;
 ball.delta_y = 1;
 
@@ -58,3 +58,4 @@ function mousePressed() {
 ```
 
 ## How did you alter the sketch?
+I first altered the sketch by changing the background to a mint green. I then renamed ball to box and changed from an ellipse to a rectangle. I played around with color for a while before settling with a pinkish orange and yellow (which remind me of craft singles). I then wanted to play around with the speed and direction of the squares and I found a lot of really intresting shapes and patterns began to form the faster the square moved through the space. So I made my yellow transparent to make it easier to see the build up that occurs. 
