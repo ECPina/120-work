@@ -13,9 +13,6 @@ Erica Pina, Section B
 2.) Why is it working the way it is?
 
 3.) What does each line do?
-
-<--
-
 `// creates an object named ball
 let ball = {};
 
@@ -62,7 +59,8 @@ function draw() {
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
     ball.scale_y = map(mouseY, 0, height, 0.5, 10);
-}`
+}
+`
 
 4.) How can you make the ball change direction?
 
