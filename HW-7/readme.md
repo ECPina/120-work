@@ -55,7 +55,9 @@ function draw() {
  // changes the direction of the ball when the mouse is pressed, as well as the speed
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
-    ball.scale_y = map(mouseY, 0, height, 0.5, 10); ```
+    ball.scale_y = map(mouseY, 0, height, 0.5, 10);
+```
+
 ---
 
 ## How did you alter the sketch?
