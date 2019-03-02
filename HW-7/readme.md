@@ -9,6 +9,7 @@ Erica Pina, Section B
 
 The original code animates the ball moving across the screen. When the ball hits the corners of the canvas, it changes directions and continues it's jouney, drawing a lattice pattern over and over again. If the screen is clicked, the ball accelerates. The ball never breaks from the canvas.
 
+---
 ```// creates an object named ball
 let ball = {};
 
@@ -55,6 +56,6 @@ function draw() {
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
     ball.scale_y = map(mouseY, 0, height, 0.5, 10); ```
+---
 
-_end_
 ## How did you alter the sketch?
