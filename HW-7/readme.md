@@ -2,7 +2,6 @@ Erica Pina, Section B
 
 [Live Sketch Link](https://ecpina.github.io/120-work/HW-7/index.html)
 
-
 # HW 7 | Describe then Alter the Bouncing Ball
 
 ## Description of What the Original Code is Doing
