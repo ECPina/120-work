@@ -7,13 +7,13 @@ Erica Pina, Section B
 
 ## Description of What the Original Code is Doing
 
-
 1.) Please describe what the original code is doing.
 
 2.) Why is it working the way it is?
 
 3.) What does each line do?
-`// creates an object named ball
+
+``` // creates an object named ball
 let ball = {};
 
 // width of the ball is 40
@@ -59,8 +59,7 @@ function draw() {
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
     ball.scale_y = map(mouseY, 0, height, 0.5, 10);
-}
-`
+} ```
 
 4.) How can you make the ball change direction?
 
