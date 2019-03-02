@@ -56,5 +56,6 @@ function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, 10);
     ball.scale_y = map(mouseY, 0, height, 0.5, 10);
 } ```
+___
 
 ## How did you alter the sketch?
