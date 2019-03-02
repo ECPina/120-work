@@ -8,12 +8,11 @@ Erica Pina, Section B
 ## Description of What the Original Code is Doing
 
 <!--
---This is a Comment Block--
+_Please describe what the original code is doing._
 
-Please describe what the original code is doing.
+_Why is it working the way it is?_
 
-Why is it working the way it is?
-What does each line do?
+_What does each line do?_
 
 // creates an object named ball
 let ball = {};
@@ -64,7 +63,6 @@ function mousePressed() {
 }
 
 How can you make the ball change direction?
-
 -->
 
 
