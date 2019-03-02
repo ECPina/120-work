@@ -1,9 +1,15 @@
 
-
+// creates an object named ball
 let ball = {};
+
+// size of ball
 ball.width = 40;
+
+// ball center
 ball.x = 10;
 ball.y = 10;
+
+// Changes the angle the ball moves through the canvas
 ball.delta_x = 1;
 ball.delta_y = 1;
 ball.scale_x = 1;
