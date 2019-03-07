@@ -19,4 +19,4 @@ I fell behind with the homework. I found myself struggling a lot with the math a
 This next week, I really want to focus on understanding what I'm writing. I feel like some things make sense the more I fiddle around, but I'm not working at the pace I'd like to.
 
 ## Workspace
-![hw-6 screen shot](../hw-6/images/hw6screen.png)
+![hw-6 screen shot](../hw-8/images/hw8screen.png)
