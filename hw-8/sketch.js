@@ -21,10 +21,10 @@ function draw(){
       mouseIsPressed_SIZE++;
     }
 
-    if ((mouseX > a) && (mouseX < a + box_size) && (mouseY > b) && (mouseY < b + box_size)) {
-          fill(0);
-      } else {
-          fill(255);
+  if ((mouseX > a) && (mouseX < a + box_size) && (mouseY > b) && (mouseY < b + box_size)) {
+        fill(0);
+    } else {
+        fill(255);
       }
 
   noStroke();
