@@ -1,14 +1,39 @@
+let sad = [];
 
 function setup() {
-  createCanvas(windowWidth, 300);
-  background('black');
+  createcanvas(windowWidth, 900);
+  let s = new Sad(width/2, height/2, 40);
+  sad.push(s);
 }
 
-function draw() {
+function mouseClicked(){
+  let r = random(20, 40);
+  let s = newSad(mouseX, mouseY, r);
+  sad.push(s);
+}
 
-  fill('white');
-  rect( 15, 15, 200, 200, 5, 90, 5, 150 );
+function draw(){
+  background(0);
+  for (let i = 0; i < sad.lenght; i++) {
+    sad[i].move();
+    sad[i].show();
+  }
+}
 
-  fill('black');
-  ellipse(150, 150, 100);
+class Sad {
+  constructor(x, y, r) {
+    this.x = x;
+    this.y = y;
+    this.r = r;
+  }
+
+  move(){
+    this.x = this.x + random(-5, 5);
+    this.y = this.y + random(-5, 5);
+  }
+
+  show() {
+    textColor('white');
+    text('SAD');
+  }
 }
