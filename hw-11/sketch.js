@@ -1,39 +1,37 @@
-let sad = [];
+/*
+Name: sketch.js
+Last Modified: 04/10/2019
+Author: E.C.Pina
+Title: Truly Greg
+*/
+
+let greg = [];
 
 function setup() {
-  createcanvas(windowWidth, 900);
-  let s = new Sad(width/2, height/2, 40);
-  sad.push(s);
+  createCanvas(900, 900);
 }
 
-function mouseClicked(){
-  let r = random(20, 40);
-  let s = newSad(mouseX, mouseY, r);
-  sad.push(s);
-}
-
-function draw(){
+function draw() {
   background(0);
-  for (let i = 0; i < sad.lenght; i++) {
-    sad[i].move();
-    sad[i].show();
-  }
+
+  greg.display();
+  greg.move();
 }
 
-class Sad {
-  constructor(x, y, r) {
-    this.x = x;
-    this.y = y;
-    this.r = r;
-  }
+class Greg {
+  constructor(x, y, color);
+  this.posX = x;
+  this.posY = y;
+  this.color = color;
+}
 
-  move(){
-    this.x = this.x + random(-5, 5);
-    this.y = this.y + random(-5, 5);
-  }
+display() {
+  fill(this.color);
+  text('GREG', posX, posY);
+}
 
-  show() {
-    textColor('white');
-    text('SAD');
+move() {
+  posX = posX + 1;
+  posY = posY +1;
   }
 }
