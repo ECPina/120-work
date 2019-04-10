@@ -2,7 +2,7 @@
 
 ["Monster" Sketch](https://ecpina.github.io/120-work/hw-4/index.html)
 
-## Week Three Summary
+## Week Four Summary
 This week we took it to the next step and we created a full illustration. I chose to create a monster using the following:
 
 - arc()

@@ -2,7 +2,7 @@
 
 [Loop Sketch](https://ecpina.github.io/120-work/hw-8/index.html)
 
-## Week Three Summary
+## Week Eight Summary
 This week was a little more relaxed and we learned to work with loops. Since I had fallen behind, it was a good time to try to get things finished and turned in. This week we went into depth about:
 - number variable (i)
 - more math

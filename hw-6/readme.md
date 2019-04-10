@@ -2,7 +2,7 @@
 
 [YeeYee! Algorithmic Sketch](https://ecpina.github.io/120-work/hw-6/index.html)
 
-## Week Three Summary
+## Week Six Summary
 This week proved to be a little more difficult. We were asked to make an algorithmic sketch by using our previous knowledge and the following:
 - addition/subtraction
 - multiplication/division
