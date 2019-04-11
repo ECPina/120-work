@@ -12,4 +12,4 @@ This piece is dedicated to Danny Gonzalez, a random youtuber who I don't even kn
 I don't even know where to start. I cycled through several ideas and everything kept breaking over and over again. Finally, I took a break and watched some Danny Gonzalez and I was struck with and idea. I slaved over the keyboard until FINALLY, text began to move across the screen. I honestly was about to give up but I knew I had to just keep trying.
 
 ## Workspace
-![TRULY GREG](./hw-11/trulygreg.png)
+![TRULY GREG](../hw-11/trulygreg.png)
