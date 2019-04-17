@@ -23,4 +23,4 @@ I think this final project is going to be a **big challenge** for me. I know I�
 My biggest issue is not pacing myself and leaving everything until the last minute. I really don’t want to do that with this project. I need to work on it every day, for at least an hour if not more if I’m going to make any progress. Since I work my main job Friday-Monday, I will probably work on this project a little less than on my days off, Tuesday-Thursday. On these days, I can put in a little more time.
 
 ## Progress so far
-I’ve mostly been doing sketches and research and writing out the story. I plan to have at least some code imputed today. I'd like to have something coded and functioning by tomorrow. 
+I’ve mostly been doing sketches and research and writing out the story. I plan to have at least some code imputed today and I'd like to have something coded and functioning by tomorrow. 
