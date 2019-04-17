@@ -1,0 +1,29 @@
+# The Pitch
+For my final project, I’d like to create a short story and tell the story through coding. I would like to possibly use outside images as well as shapes/movements drawn in p5.js. I mostly image using text and shapes that are interactive or clickable. I would like to overlay audio as well, but that’s something I will have to learn and we’ll see if I am cable of doing so.
+
+The story I imagine doing will be short. I have a big interest in horror/mystery, so I image my story to follow under that genre.
+
+# Inspiration
+I wasn’t sure what direction to take until I stumbled upon The Boat, a scrolling story with some interactive touches in it. I thought since I like to create stories, it might be fun to try.
+
+_The Boat_
+http://www.sbs.com.au/theboat/
+
+I was also looking around on the Open Processing website and saw a lot of really amazing sketches. I’d like to see if I can achieve something like that with what I’ve learned over the semester.
+
+_Open Processing_
+https://www.openprocessing.org
+
+I also play to look at Emily Carrol’s work when it comes to mood and color, as her comics are incredible at setting a mood and creating a story. This of course, isn't coding, but more for in the inspiration for my story.
+
+_Emily Carrol Art & Comics_
+https://emcarroll.com/comic/
+
+# Issues
+I think this final project is going to be a *big challenge* for me. I know I’ll struggle with breaking my code and objects not appearing like they should. I’m not super confident in my abilities, but I’m going to work really hard to make something that works.
+
+# Work Plan
+My biggest issue is not pacing myself and leaving everything until the last minute. I really don’t want to do that with this project. I need to work on it every day, for at least an hour if not more if I’m going to make any progress. Since I work my main job Friday-Monday, I will probably work on this project a little less than on my days off, Tuesday-Thursday. On these days, I can put in a little more time.
+
+# Progress so far
+I’ve mostly been doing sketches and research and writing out the story. I plan to have at least some code imputed today. I’d like to get the “first page” done by tomorrow. 
