@@ -36,10 +36,14 @@ function draw() {
   rainX %= width;
   rainY %= height;
 
+
   fill('#313A50');
   strokeWeight(65);
   stroke('#000000');
   rect(100, 100, 550, 600);
+
+  stroke(1);
+  line(375, 700, 375, 125);
 
   for (let i = 0; i < wake.length; i++) {
     wake[i].move();
