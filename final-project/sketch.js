@@ -5,13 +5,21 @@ Author: E.C.Pina
 Title: WIP
 */
 
+// sound credits:
+// rain and thunder in stero by toddcircle
+// dull metal windchimes by splicesound
+// freesound.org
+
+let rainSound;
+
 let wake = [];
 let wakeX = 5;
 let wakeY = 5;
 
-let rain = [];
-let rainX = 5;
-let rainY = 5;
+function preload() {
+  soundFormats('mp3');
+  rainSound = loadSound('rainthunder.mps');
+}
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
@@ -21,10 +29,7 @@ createCanvas(windowWidth, windowHeight);
     wake[i] = new Wake();
   }
 
-  for (let i = 0; i < 1; i++) {
-    let x = 1 + 2 * i;
-    rain[i] = new Rain();
-  }
+  rainSound.play();
 }
 
 function draw() {
@@ -33,10 +38,7 @@ function draw() {
   wakeX %= width;
   wakeY %= height;
 
-  rainX %= width;
-  rainY %= height;
-
-
+  // draws window on cannvas
   fill('#313A50');
   strokeWeight(65);
   stroke('#000000');
@@ -48,10 +50,5 @@ function draw() {
   for (let i = 0; i < wake.length; i++) {
     wake[i].move();
     wake[i].display();
-  }
-
-  for (let i =0; i < rain.height; i++) {
-    rain[i].move();
-    rain[i].display();
   }
 }
