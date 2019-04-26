@@ -10,26 +10,25 @@ Title: WIP
 // dull metal windchimes by splicesound
 // freesound.org
 
-let rainSound;
-
 let wake = [];
 let wakeX = 5;
 let wakeY = 5;
 
+let rainAudio;
+
 function preload() {
-  soundFormats('mp3');
-  rainSound = loadSound('rainthunder.mps');
+  rainAudio = loadSound('../final-project/rainthunder.mp3');
 }
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
+rainAudio.play();
+rainAudio.setVolume(0.5);
 
   for (let i = 0; i < 1; i++) {
     let x = 1 + 2 * i;
     wake[i] = new Wake();
   }
-
-  rainSound.play();
 }
 
 function draw() {
