@@ -21,13 +21,14 @@ function preload() {
 }
 
 function setup() {
-createCanvas(windowWidth, windowHeight);
-rainAudio.play();
-rainAudio.setVolume(0.5);
+  createCanvas(900, 900);
+
+  rainAudio.play();
+  rainAudio.setVolume(0.5);
 
   for (let i = 0; i < 1; i++) {
-    let x = 1 + 2 * i;
-    wake[i] = new Wake();
+   let x = 1 + 2 * i;
+   wake[i] = new Wake();
   }
 }
 
@@ -37,9 +38,8 @@ function draw() {
   wakeX %= width;
   wakeY %= height;
 
-  // draws window on cannvas
   fill('#313A50');
-  strokeWeight(65);
+  strokeWeight(50);
   stroke('#000000');
   rect(100, 100, 550, 600);
 
@@ -49,5 +49,5 @@ function draw() {
   for (let i = 0; i < wake.length; i++) {
     wake[i].move();
     wake[i].display();
-  }
+  ß}
 }
