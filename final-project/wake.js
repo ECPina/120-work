@@ -13,6 +13,7 @@ class Wake {
     fill('#A7A7A7');
     noStroke();
     textSize(50);
-    text('you wake in the dead of night', this.x, this.y*2);
+    text('something has woken you', this.x, this.y*2);
+    text('you are not sure what', this.x, this.y*3);
   }
 }
