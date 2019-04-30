@@ -23,6 +23,6 @@ I should have asked for help, but my biggest downfall is that I always try to pu
 This whole course has been a really big challenge for me. I learn A LOT and I'm hoping that I can still take away everything I learned. I think coding is really invaluable these days and I'd really like to master it. But I think it's going to take me longer than I thought.
 
 ## CREDITS
-Rain code inspired by Dan Shaffman from the Coding Train
-Lyrics from The Hearse Song popularized by Alvin Schwartz
-Rain and Thunder in Stereo by Toddcirlce (freesound.org)
+- Rain code inspired by Dan Shaffman from the Coding Train
+- Lyrics from The Hearse Song popularized by Alvin Schwartz
+- Rain and Thunder in Stereo by Toddcirlce (freesound.org)
